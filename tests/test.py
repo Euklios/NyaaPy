@@ -1,3 +1,4 @@
 from NyaaPy import Pantsu
 
-print(Pantsu.search('koe no katachi', lang=["es", "ja"], category=[1, 3]))
+if __name__ == "__main__":
+    print(Pantsu().search('koe no katachi', lang=["es", "ja"], category=[1, 3]))
